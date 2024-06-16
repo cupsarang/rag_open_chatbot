@@ -6,7 +6,7 @@ import numpy as np
 import ast
 import os
 
-api_key = os.getenv('OPENAPI_API_KEY')
+api_key = os.getenv('OPENAI_API_KEY')
 client = openai.OpenAI(api_key=api_key) 
 
 # OpenAI(api_key="sk-proj-YNGQmnKsUCj3tPcoWVPqT3BlbkFJ1ZhBk6uGUfSC5t0kxBO3")
